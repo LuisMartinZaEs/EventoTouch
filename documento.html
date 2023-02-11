@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACSA SISTEMAS</title>
+    <style>
+        .h2{
+            text-align: center;
+        }
+        .justificado{
+            text-align: justify;
+        }
+        .alinear-derecha{
+            float:right;
+        }
+        .firma {
+            text-align: left;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="acsalogo.png" class="alinear-derecha">
+    <h2>CONSTANCIA DE CAPACITACIÓN DE RECEPCIÓN DE MERCANCÍA CON COLECTOR TC20</h2>
+   
+    <h3>Módulo de compras y módulo de traspasos</h3>
+    <br>
+    <strong>SUCURSAL: VALLE 1</strong>
+    
+    
+    <p class="justificado">Por medio del presente documento hago constar que recibí la capacitación pertinente a la recepción de mercancía por medio de la terminal TC20
+        impartida por el compañero: <strong>ING. Daniel Arriaga Medina</strong> siendo el día 10 de febrero de 2023.
+        Por otra parte, el departamento de sistemas queda abierto a posibles sugerencias para mejoras en el rendimiento del nuevo método de trabajo,
+        con el objetivo de darle agilidad al proceso de recepción de mercancia, asimismo; a cualquier duda relacionada al proceso de recepción de 
+        mercancía y de compras.</p>
+    
+   
+    <h2 class="h2">Firma del responsable</h2>
+    
+    <img src="" alt="Firma del usuario" id="firma" class="firma">
+    <br>
+ 
+    <script>
+        if (window.opener) {
+            document.querySelector("#firma").src = window.opener.obtenerImagen();
+            // Imprimir documento. Si no quieres imprimir, remueve la siguiente línea
+            window.print();
+        }
+    </script>
+</body>
+
+</html>

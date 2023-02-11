@@ -1,0 +1,16 @@
+body{background:#FDFEFE;}
+canvas {
+  
+  background-color: #FDFEFE;
+  border: 1px solid #000;
+  display:block;
+  margin: 0 auto;
+}
+p{
+  text-align:center; 
+  color:black;
+  font-size: xx-large;
+}
+div{
+  text-align: center;
+}
